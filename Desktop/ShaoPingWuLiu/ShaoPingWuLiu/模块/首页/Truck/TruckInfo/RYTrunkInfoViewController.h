@@ -1,0 +1,13 @@
+//
+//  RYTrunkInfoViewController.h
+//  ShaoPingWuLiu
+//
+//  Created by renyong on 15/11/16.
+//  Copyright © 2015年 HuaYiSoftware. All rights reserved.
+//
+
+#import "WPBasicViewController.h"
+
+@interface RYTrunkInfoViewController : WPBasicViewController
+
+@end

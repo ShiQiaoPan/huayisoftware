@@ -1,0 +1,42 @@
+//  PrefixHeader.pch
+//  ShaoPingWuLiu
+//
+//  Created by WeiPan on 15/11/5.
+//  Copyright (c) 2015年 HuaYiSoftware. All rights reserved.
+//
+
+#ifndef ShaoPingWuLiu_PrefixHeader_pch
+#define ShaoPingWuLiu_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "UserModel.h"
+#import "UIView+AdaptFrame.h"
+#import "AdaptableScreen.h"
+#import "ControllerManager.h"
+#import "ConfirmMobileNumber.h"
+#import "SDKHead.h"
+#import <MJRefresh.h>
+#import <MBProgressHUD.h>
+#import "UserDataStoreModel.h"
+
+
+#define ORIGIN_HEIGHT  568.f
+#define ORIGIN_WIDTH   320.f
+#define APPID @"wxffffbec43d96f964"
+#define AppSecret @"d4624c36b6795d1d99dcf0547af5443d"
+
+#define BGCOLOR [UIColor colorWithRed:239/255.0 green:243/255.0 blue:244/255.0 alpha:1]
+
+#define REDBGCOLOR [UIColor colorWithRed:240/255.0 green:81/255.0 blue:51/255.0 alpha:1]
+#define GARYTextColor COLOR_RGB(200, 201, 202, 1)
+
+
+#define IMAGE_CONTENT(x) [[UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForAuxiliaryExecutable:x]]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
+
+#define IMAGE_NAME(x) [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForAuxiliaryExecutable:x]]
+#define COLOR_RGB(_R,_G,_B,_A)[UIColor colorWithRed:_R/255.0 green:_G/255.0 blue:_B/255.0 alpha:_A]
+
+
+
+#endif
